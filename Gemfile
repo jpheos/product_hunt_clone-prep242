@@ -16,7 +16,7 @@ gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
 gem 'faker'
-
+gem 'awesome_print'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
@@ -29,4 +29,10 @@ group :development, :test do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'dotenv-rails'
+
+  gem 'capybara'
+  gem 'selenium-webdriver'
+  gem 'chromedriver-helper'
+  gem 'launchy'
+
 end
